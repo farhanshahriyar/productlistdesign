@@ -3,11 +3,11 @@ import './cart.css' //css file
 import Scrollbars from 'react-custom-scrollbars-2'
 import Items from './Items'
 import Customize from './Customize.js'
-// import {Product} from './Products'
+import Product from './Products'
 
 const Cart = () => {
 
-    // const [items, setItems] = useState(Product)
+    const [items, setItems] = useState(Product);
   return (
     <>
         <header>
@@ -28,7 +28,12 @@ const Cart = () => {
             <div className='cart-items'>
                 <div className='cart-items-container'>
                    <Scrollbars>
-                       <Items/>
+                       {
+                           items.map((curItem)=>{
+                                return <Items key={curItem.id}/>
+                           })
+                       }
+                       
                 </Scrollbars>
                 </div>
             </div>
