@@ -25,6 +25,9 @@ const Items = ({name,image,color,price,countInStock}) => {
                         <input type='text' placeholder='3'></input>
                         <i class="fa-solid fa-plus add"></i>
                         </div>
+                        <div className='delete-item'>
+                            <button type="button" class="btn-close" aria-label="Close"></button>
+                        </div>
             
                     </div>
 
