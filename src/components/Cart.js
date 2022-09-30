@@ -30,7 +30,7 @@ const Cart = () => {
                    <Scrollbars>
                        {
                            items.map((curItem)=>{
-                                return <Items key={curItem.id}/>
+                                return <Items key={curItem.id} {...curItem}/>
                            })
                        }
                        
