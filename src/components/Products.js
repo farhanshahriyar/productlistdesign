@@ -69,7 +69,7 @@ const products = [
     category: 'TShirt',
     price: 35.00,
     size: 'L,M,XL,XXL',
-    countInStock: 0,
+    countInStock: 2,
   },
 ]
 
