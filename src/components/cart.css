@@ -221,9 +221,16 @@ select::-ms-expand {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.delete-info button{
+.delete-item {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
+  margin-right: 10rem;
+}
+
+.delete-item button {
+  border: none;
+  background-color: transparent;
 }
 
 .items-info .product-img img {

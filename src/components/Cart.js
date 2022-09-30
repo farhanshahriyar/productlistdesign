@@ -39,6 +39,7 @@ const Cart = () => {
             </div>
             <div className='card-total'>
                 <h3>Cart Total: <span>210$</span></h3>
+                <hr></hr>
                     {/* inside this span it will be dynamic numbers */}
                 <button>Proceed To Check Out</button>
             </div>

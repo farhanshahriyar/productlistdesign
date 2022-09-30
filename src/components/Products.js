@@ -1,6 +1,6 @@
 const products = [
   {
-    name: 'Blue Panjabi',
+    name: 'Mens Special Panjabi',
     image: './images/Products/Panjabi-1.jpg',
     description:
       'Stay focused and create your own style statement-wearing this summer friendly Attire',
@@ -12,7 +12,7 @@ const products = [
     countInStock: 10,
   },
   {
-    name: 'Black Panjabi',
+    name: 'Cotton Panjabi',
     image: './images/Products/Panjabi-2.jpg',
     description:
       'Stay focused and create your own style statement-wearing this summer friendly Attire',
@@ -24,7 +24,7 @@ const products = [
     countInStock: 7,
   },
   {
-    name: 'Navy Blue Shirt',
+    name: 'Cotton Shirt',
     image: './images/Products/Shirt-1.jpg',
     description:
       'Stay focused and create your own style statement-wearing this summer friendly Attire',
@@ -36,7 +36,7 @@ const products = [
     countInStock: 5,
   },
   {
-    name: 'Black Shirt',
+    name: 'Cotton Shirt',
     image: './images/Products/Shirt-2.jpg',
     description:
       'Stay focused and create your own style statement-wearing this summer friendly Attire',
@@ -48,7 +48,7 @@ const products = [
     countInStock: 11,
   },
   {
-    name: 'Light Red TShirt',
+    name: 'Royal TShirt',
     image: './images/Products/TShirt-1.jpg',
     description:
       'Stay focused and create your own style statement-wearing this summer friendly Attire',
@@ -60,7 +60,7 @@ const products = [
     countInStock: 7,
   },
   {
-    name: 'Light Pink T Shirt',
+    name: 'Retro TShirt',
     image: './images/Products/TShirt-2.jpg',
     description:
       'Stay focused and create your own style statement-wearing this summer friendly Attire',
