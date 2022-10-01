@@ -362,11 +362,11 @@ select::-ms-expand {
 }
 
 .fa-plus:hover {
-  color: #42c157;
+  color: #21b93a;
 }
 
 .fa-minus:hover {
-  color: #ffb800;
+  color: #ff0000;
 }
 
 .fa-plus,

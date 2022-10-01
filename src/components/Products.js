@@ -1,5 +1,6 @@
 const products = [
   {
+    id:1,
     name: 'Mens Special Panjabi',
     image: './images/Products/Panjabi-1.jpg',
     description:
@@ -12,6 +13,7 @@ const products = [
     countInStock: 10,
   },
   {
+    id:2,
     name: 'Cotton Panjabi',
     image: './images/Products/Panjabi-2.jpg',
     description:
@@ -24,6 +26,7 @@ const products = [
     countInStock: 7,
   },
   {
+    id:3,
     name: 'Cotton Shirt',
     image: './images/Products/Shirt-1.jpg',
     description:
@@ -36,6 +39,7 @@ const products = [
     countInStock: 5,
   },
   {
+    id:4,
     name: 'Cotton Shirt',
     image: './images/Products/Shirt-2.jpg',
     description:
@@ -48,6 +52,7 @@ const products = [
     countInStock: 11,
   },
   {
+    id:5,
     name: 'Royal TShirt',
     image: './images/Products/TShirt-1.jpg',
     description:
@@ -60,6 +65,7 @@ const products = [
     countInStock: 7,
   },
   {
+    id:6,
     name: 'Retro TShirt',
     image: './images/Products/TShirt-2.jpg',
     description:
