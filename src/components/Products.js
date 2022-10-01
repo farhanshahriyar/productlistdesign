@@ -1,6 +1,6 @@
 const products = [
   {
-    id:1,
+    id: 1,
     name: 'Mens Special Panjabi',
     image: './images/Products/Panjabi-1.jpg',
     description:
@@ -8,12 +8,13 @@ const products = [
     brand: 'Attire',
     color: 'Blue',
     category: 'Panjabi',
-    price: 35.00,
+    price: 50,
     size: 'L,M,XL,XXL',
     countInStock: 10,
+    quantity: 1
   },
   {
-    id:2,
+    id: 2,
     name: 'Cotton Panjabi',
     image: './images/Products/Panjabi-2.jpg',
     description:
@@ -21,12 +22,13 @@ const products = [
     brand: 'Attire',
     color: 'Black',
     category: 'Panjabi',
-    price: 35.00,
+    price: 75,
     size: 'L,M,XL,XXL',
     countInStock: 7,
+    quantity: 1
   },
   {
-    id:3,
+    id: 3,
     name: 'Cotton Shirt',
     image: './images/Products/Shirt-1.jpg',
     description:
@@ -34,12 +36,13 @@ const products = [
     brand: 'Attire',
     color: 'Navy Blue',
     category: 'Shirt',
-    price: 35.00,
+    price: 135,
     size: 'L,M,XL,XXL',
     countInStock: 5,
+    quantity: 1
   },
   {
-    id:4,
+    id: 4,
     name: 'Cotton Shirt',
     image: './images/Products/Shirt-2.jpg',
     description:
@@ -47,12 +50,13 @@ const products = [
     brand: 'Attire',
     color: 'Black',
     category: 'Shirt',
-    price: 35.00,
+    price: 200,
     size: 'L,M,XL,XXL',
     countInStock: 11,
+    quantity: 1
   },
   {
-    id:5,
+    id: 5,
     name: 'Royal TShirt',
     image: './images/Products/TShirt-1.jpg',
     description:
@@ -60,12 +64,13 @@ const products = [
     brand: 'Attire',
     color: 'Light Red',
     category: 'TShirt',
-    price: 35.00,
+    price: 100,
     size: 'L,M,XL,XXL',
     countInStock: 7,
+    quantity: 1
   },
   {
-    id:6,
+    id: 6,
     name: 'Retro TShirt',
     image: './images/Products/TShirt-2.jpg',
     description:
@@ -76,6 +81,7 @@ const products = [
     price: 35.00,
     size: 'L,M,XL,XXL',
     countInStock: 2,
+    quantity: 1
   },
 ]
 
